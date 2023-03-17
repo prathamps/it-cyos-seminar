@@ -225,15 +225,6 @@ class _HomeState extends State<Home> {
                         ],
                       )),
                   NumberInputBox(updateRegisterNo: updateRegisterNo),
-                  Container(
-                      margin: const EdgeInsets.only(top: 24),
-                      child: Column(children: [
-                        const Text(
-                          "Change with discretion",
-                          style: TextStyle(color: Colors.white),
-                        ),
-                        DropDown(updateRegisterNo: updateRegisterNo)
-                      ])),
                   Expanded(
                     child: ListView.separated(
                       shrinkWrap: true,
